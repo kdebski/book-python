@@ -413,7 +413,7 @@ Array modification
 ------------------
 .. code-block:: python
 
-    a = array([1, 2, 3], float)
+    a = np.array([1, 2, 3], float)
     # array([ 1., 2., 3.])
 
     a.fill(0)
@@ -438,6 +438,17 @@ Array modification
 
     a.flatten()
     # array([ 1., 2., 3., 4., 5., 6.])
+
+.. code-block:: python
+
+    a = np.array(range(6), float).reshape((2, 3, 1))
+    # array([[[0.],
+    #         [1.],
+    #         [2.]],
+    #
+    #        [[3.],
+    #         [4.],
+    #         [5.]]])
 
 Concatanation
 -------------
