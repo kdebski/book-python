@@ -450,7 +450,7 @@ Array modification
     #         [4.],
     #         [5.]]])
 
-Concatanation
+Concatenation
 -------------
 .. code-block:: python
 
@@ -664,8 +664,8 @@ Array Multiplication
 --------------------
 .. code-block:: text
 
-    A = [[1, 0], [0, 1]]
-    B = [[4, 1], [2, 2]]
+    a = np.array([[1, 0], [0, 1]])
+    b = np.array([[4, 1], [2, 2]])
 
     a @ b
     # [[4, 1], [2, 2]]
