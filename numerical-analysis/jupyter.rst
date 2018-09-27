@@ -60,7 +60,7 @@ Add, Delete Cells
 -----------------
 
 Cut, Copy, Paste Cells
-------------------
+----------------------
 
 Move Up/Down Cells
 ------------------

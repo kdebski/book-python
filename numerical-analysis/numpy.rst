@@ -71,16 +71,6 @@ Compute the median along the specified axis
     np.median(a)
     # 3.0
 
-Pearson product-moment correlation coefficients
------------------------------------------------
-.. code-block:: python
-
-    a = np.array([[1, 2, 1, 3], [5, 3, 1, 8]], float)
-
-    np.corrcoef(a)
-    # array([[ 1. , 0.72870505],
-    #        [ 0.72870505, 1. ]])
-
 Estimate a covariance matrix, given data and weights
 ----------------------------------------------------
 .. code-block:: python
@@ -90,6 +80,21 @@ Estimate a covariance matrix, given data and weights
     np.cov(a)
     # array([[ 0.91666667, 2.08333333],
     #        [ 2.08333333, 8.91666667]])
+
+    np.cov(a, ddof=0)
+    # array([[0.6875, 1.5625],
+    #       [1.5625, 6.6875]])
+
+
+Pearson product-moment correlation coefficients
+-----------------------------------------------
+.. code-block:: python
+
+    a = np.array([[1, 2, 1, 3], [5, 3, 1, 8]], float)
+
+    np.corrcoef(a)
+    # array([[ 1. , 0.72870505],
+    #        [ 0.72870505, 1. ]])
 
 
 Random numbers
