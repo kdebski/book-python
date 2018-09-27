@@ -60,7 +60,7 @@ Reversing and stepping over elements
 ====================================
 .. code-block:: python
 
-    text = 'Lorem ipsum'
+    text = 'That\'s one small step for [a] man, one giant leap for mankind.'
 
     text[::2]             # "Ta' n ml tpfr[]mn n in epfrmnid"
     text[::-1]            # ".dniknam rof pael tnaig eno ,nam ]a[ rof pets llams eno s'tahT"
