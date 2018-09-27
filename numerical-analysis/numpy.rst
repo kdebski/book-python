@@ -202,6 +202,10 @@ Roots of a polynomial
     np.roots([1, 4, -2, 3])
     # array([-4.57974010+0.j , 0.28987005+0.75566815j, 0.28987005-0.75566815j])
 
+    np.roots([ 1, -11, 9, 11, -10])
+    #array([10.+0.0000000e+00j, -1.+0.0000000e+00j,
+    #       1.+9.6357437e-09j, 1.-9.6357437e-09j])
+
 Antiderivative (indefinite integral) of a polynomial
 ----------------------------------------------------
 .. code-block:: python
@@ -397,7 +401,7 @@ Array shape
 
 .. code-block:: python
 
-    a = array([1, 2, 3], float)
+    a = np.array([1, 2, 3], float)
 
     s = a.tostring()
     # '\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x08@'
