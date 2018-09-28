@@ -1008,6 +1008,10 @@ Where
         np.where(a > 0, 3, 2)
         # array([3, 3, 2])
 
+        a = np.array([1, -3, 3, 0], float)
+        np.logical_and(a > 0, a % 3 == 0)
+        # array([False, False, False, False])
+
 Nonzero
 ^^^^^^^
 .. code-block:: python
