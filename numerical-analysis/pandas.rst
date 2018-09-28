@@ -253,7 +253,7 @@ Niemniej zalecane jest używanie zoptymalizowanych funkcji Pandas:
 
 .. code-block:: python
 
-    df.loc[:,'A'])
+    df.loc[:,'A']
     # 2017-01-01    0.131926
     # 2017-01-02    0.084471
     # 2017-01-03   -1.308835
