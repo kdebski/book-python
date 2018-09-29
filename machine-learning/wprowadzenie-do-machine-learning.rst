@@ -343,9 +343,6 @@ Example problems are clustering, dimensionality reduction and association rule l
 
 Semi-Supervised Learning
 ------------------------
-Also known as:
-
-    - Reinforcement learning
 
 Input data is a mixture of labeled and unlabelled examples.
 
@@ -372,3 +369,6 @@ Example algorithms are extensions to other flexible methods that make assumption
     * przedstawia iterację człowiekowi
     * człowiek interaktywnie poprawia i określa jakość oznaczania
     * komputer dokonuje kolejnej analizy
+
+Reinforcement learning
+----------------------
