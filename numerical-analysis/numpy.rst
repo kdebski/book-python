@@ -30,71 +30,47 @@ Import
 
 Data Structures
 ===============
-* Skalar - jednowymiarowa
-* Wektor - dwuwymiarowa
-* Tensor - trójwymiarowa
-* Tablica - czterowymiarowa
-* Macierz - n-wymiarowa
+* Scalar - 1, 2, 3
+* Vector - [1], [2], [3]
+* Array - [[1, 2], [3, 4]]
+* Matrix - [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
+
+* Tensor
 
 
 Functions
 =========
+
 * ``np.abs()``
 * ``np.sign()``
 * ``np.sqrt()``
+
+Exponents and logarithms
+------------------------
+
 * ``np.log()``
 * ``np.log10()``
 * ``np.exp()``
+
+Trigonometric functions
+-----------------------
+
 * ``np.sin()``
 * ``np.cos()``
 * ``np.tan()``
 * ``np.arcsin()``
 * ``np.arccos()``
 * ``np.arctan()``
+
+Hiperbolic functions
+--------------------
+
 * ``np.sinh()``
 * ``np.cosh()``
 * ``np.tanh()``
 * ``np.arcsinh()``
 * ``np.arccosh()``
 * ``np.arctanh()``
-
-
-Statistics
-==========
-
-Compute the median along the specified axis
--------------------------------------------
-.. code-block:: python
-
-    a = np.array([1, 4, 3, 8, 9, 2, 3], float)
-
-    np.median(a)
-    # 3.0
-
-Estimate a covariance matrix, given data and weights
-----------------------------------------------------
-.. code-block:: python
-
-    a = np.array([[1, 2, 1, 3], [5, 3, 1, 8]], float)
-
-    np.cov(a)
-    # array([[ 0.91666667, 2.08333333],
-    #        [ 2.08333333, 8.91666667]])
-
-    np.cov(a, ddof=0)
-    # array([[0.6875, 1.5625],
-    #       [1.5625, 6.6875]])
-
-
-Pearson product-moment correlation coefficients
------------------------------------------------
-.. code-block:: python
-
-    a = np.array([[1, 2, 1, 3], [5, 3, 1, 8]], float)
-
-    np.corrcoef(a)
-    # array([[ 1. , 0.72870505],
-    #        [ 0.72870505, 1. ]])
 
 
 Random numbers
@@ -1117,6 +1093,43 @@ Array item selection and manipulation
 
     a.put([0, 3], 5)
     # array([ 5., 1., 2., 5., 4., 5.])
+
+Statistics
+==========
+
+Compute the median along the specified axis
+-------------------------------------------
+.. code-block:: python
+
+    a = np.array([1, 4, 3, 8, 9, 2, 3], float)
+
+    np.median(a)
+    # 3.0
+
+Estimate a covariance matrix, given data and weights
+----------------------------------------------------
+.. code-block:: python
+
+    a = np.array([[1, 2, 1, 3], [5, 3, 1, 8]], float)
+
+    np.cov(a)
+    # array([[ 0.91666667, 2.08333333],
+    #        [ 2.08333333, 8.91666667]])
+
+    np.cov(a, ddof=0)
+    # array([[0.6875, 1.5625],
+    #       [1.5625, 6.6875]])
+
+
+Pearson product-moment correlation coefficients
+-----------------------------------------------
+.. code-block:: python
+
+    a = np.array([[1, 2, 1, 3], [5, 3, 1, 8]], float)
+
+    np.corrcoef(a)
+    # array([[ 1. , 0.72870505],
+    #        [ 0.72870505, 1. ]])
 
 
 Vector and matrix mathematics
