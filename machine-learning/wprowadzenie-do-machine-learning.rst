@@ -281,15 +281,6 @@ Przykład pracy z ``scikit-learn``
     # array([2, 0])
 
 
-Przykład pracy z ``PyMC3``
---------------------------
-#. Sparametryzuj swój problem używając rozkładów statystycznych
-#. Uzasadnij strukturę swojego modelu
-#. Napisz swój model używając PyMC3 i dokonaj obliczeń
-#. Zinterpretuj wynik bazując na rozkładach wynikowych
-#. (opcjonalnie) z nowymi wynikami dostosuj swój model statystyczny
-
-
 Kategorie algorytmów uczenia maszynowego
 ========================================
 

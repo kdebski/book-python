@@ -14,6 +14,7 @@ extensions = [
     # 'sphinx.ext.autodoc',
     # 'sphinx.ext.intersphinx',
     # 'sphinx.ext.graphviz',
+    'nbsphinx',
     'sphinxcontrib.bibtex',
     # 'sphinxjp.themes.revealjs',
 ]
@@ -45,7 +46,7 @@ highlight_language = 'python3'
 pygments_style = 'vs'
 numfig = True
 templates_path = ['_templates']
-master_doc = 'index'
+master_doc = 'ml_train'
 source_suffix = ['.rst']
 imgmath_image_format = 'svg'
 today_fmt = '%Y-%m-%d'
