@@ -17,6 +17,7 @@ extensions = [
     'nbsphinx',
     'sphinxcontrib.bibtex',
     # 'sphinxjp.themes.revealjs',
+    'IPython.sphinxext.ipython_console_highlighting',
 ]
 
 todo_emit_warnings = False
@@ -46,7 +47,7 @@ highlight_language = 'python3'
 pygments_style = 'vs'
 numfig = True
 templates_path = ['_templates']
-master_doc = 'ml_train'
+master_doc = 'index'
 source_suffix = ['.rst']
 imgmath_image_format = 'svg'
 today_fmt = '%Y-%m-%d'
@@ -64,8 +65,9 @@ exclude_patterns = [
     'about/src/*.rst',
     '_build', '.build',
     '_themes',
+    '**.ipynb_checkpoints',
     '_static',
-     '*/_template.rst',
+    '*/_template.rst',
     '.*', 'venv*', 'virtualenv*'
 ]
 
